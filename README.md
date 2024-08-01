@@ -8,10 +8,6 @@ python manage.py startprojects projectname
  ```
  python3 manage.py startapp polls
  ```
- ### 项目与应用的区别
- *一个应用可以被多个项目包含* 
- *一个项目可以包含多个应用*
- 对于项目来说 一个应用类似于一个单独的功能 
 
  # 需求分析
  ## 1. 商品
