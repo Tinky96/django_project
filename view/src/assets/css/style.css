@@ -1,0 +1,3647 @@
+/*===============================================
+Template Name: cyber - Digital Agency HTML5 Template Version:0.1
+================================================*/
+
+/*TABLE OF CONTENTS*/
+/*=====================
+01. cyber-security Header Top Menu Area Css
+02. cyber-security Nav Menu Area Css 
+03. cyber-security Slider Area Css
+04. cyber-security Section Title Css
+05. cyber-security Service Area css
+06. cyber-security About Area Css
+07. cyber-security Counter Area Css
+08. cyber-security Case Study Area Css
+09. cyber-security Testimonial Area Css
+10. cyber-security Process Area Css
+11. cyber-security Team Area Css
+12. cyber-security Faq Area Css
+13. cyber-security Brand Section Css
+14. cyber-security Call Do Section Css
+15. cyber-security Form Box Css
+16. cyber-security Skill Area Css
+17. cyber-security Blog Area Css
+18. cyber-security footer Area Css
+19. cyber-security Subscribe Area Css
+20. cyber-security Lines CSS
+21. cyber-security Prossess Ber Css
+22. cyber-security Scrollup Section
+23. cyber-security Bounce Animation Css 
+24. cyber-security Animation Dance
+25. cyber-security Breadcumb Area Css
+26. cyber-security abouts_areas Css
+27. cyber-security Feture-Area Css
+28. cyber-security Pricing Section Css
+29. cyber-security Web Development Section CSS
+30. cyber-security Contact  US Css
+31. cyber-security Blog Sidber Widget CSS
+32. cyber-security Case Study Details Css
+33. cyber-security Search Box Css
+34. cyber-security Loader Css
+=======================*/
+
+
+/*================================
+<--  cyber-security Nav Menu Area Css -->
+==================================*/
+
+.cyber-security_nav_manu {
+    transition: .5s;
+    z-index: 2;
+    position: relative;
+}
+
+.row.up {
+    position: relative;
+    z-index: 1;
+}
+
+.row.up:before {
+    position: absolute;  
+    content: "";  
+    left: 0;  
+    bottom: 0;  
+    width: 100%;  
+    z-index: -12;  
+    height: 1px;  
+    border-bottom: 1px solid #6c1ae0;  
+    opacity: 0.051;  
+}
+
+.sticky {
+    left: 0;
+    margin: auto;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    -webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+    background: #FFFFFF !important;
+    transition: .5s !important;
+    z-index: 922;
+    -webkit-animation: 300ms running fadeInDown;
+    animation: 500ms running fadeInUp;
+    animation-name: slideInDown;
+}
+
+.sticky .cyber-security_menu>ul>li>a {
+    color: #101210;
+}
+
+.sticky .header-button a {
+    background-image: linear-gradient(90deg, #c115db 0%, #692fd5 100%);
+}
+
+.sticky .header-button a i {
+    color: #fff;
+}
+
+/* cyber-security Menu Css*/
+nav.cyber-security_menu {
+    position: relative;
+    z-index: 1;
+    text-align: right;
+}
+
+.cyber-security_menu ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.cyber-security_menu>ul>li {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.cyber-security_menu>ul>li>a {
+    display: inline-block;
+    margin: 30px 13px;
+    transition: .5s;
+    font-size: 16px;
+    color: #1d2124;
+    font-weight: 500;
+    font-family: "Mulish";
+    text-decoration: none;  
+}
+
+.cyber-security_menu>ul>li>a span {
+    font-size: 11px;
+    padding-left: 5px;
+    font-family: FontAwesome;
+    color: #1d2124 !important;
+    transition: .5s;
+}
+
+.cyber-security_menu>ul>li>a:hover {
+    color: #792BD7;
+}
+
+.cyber-security_menu>ul>li>a:hover i {
+    color: #792BD7 !important;
+}
+
+nav.cyber-security_menu.up>ul>li>a {
+    color: #FFF;
+    transition: .5s;
+}
+
+nav.cyber-security_menu.up>ul>li>a i {
+    color: #FFF;
+    transition: .5s;
+}
+
+nav.cyber-security_menu.up>ul>li>a:hover {
+    color: #F95169;
+}
+
+nav.cyber-security_menu.up>ul>li>a:hover i {
+    color: #F95169 !important;
+}
+
+.sticky nav.cyber-security_menu.up>ul>li>a {
+    color: #000;
+}
+
+.sticky nav.cyber-security_menu.up>ul>li>a i {
+    color: #000;
+}
+
+.sticky nav.cyber-security_menu.up>ul>li>a:hover {
+    color: #F95169;
+}
+
+/*menu button*/
+
+.header-button {
+    display: inline-block;
+    margin-left: 42px;
+}
+
+.header-button a {
+    padding: 9px 27px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Mulish";
+    border-radius: 4px;
+    background: linear-gradient(90deg, #c115db 0%, #692fd5 100%);
+}
+
+.header-button a:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #c115db, #692fd5, #7A2AD7, #c115db);
+    transition: .5s;
+    transform: scale(0);
+    border-radius: 4px;
+    z-index: -1;
+}
+
+.header-button a:hover:before {
+    transform: scale(1);
+}
+
+
+.change-button {
+    display: inline-block;
+
+}
+
+.change-button button {
+    padding: 9px 27px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Mulish";
+    border-radius: 4px;
+    background: linear-gradient(90deg, #c115db 0%, #692fd5 100%);
+}
+
+.change-button button:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #c115db, #692fd5, #7A2AD7, #c115db);
+    transition: .5s;
+    transform: scale(0);
+    border-radius: 4px;
+    z-index: -1;
+}
+
+.change-button button:hover:before {
+    transform: scale(1);
+}
+/*Style Two Nav Menu*/
+
+.style-two.cyber-security_nav_manu {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10196078431372549);
+}
+
+.style-two .cyber-security_menu>ul>li>a {
+    color: #fff;
+
+}
+
+/*style two btn*/
+
+.style-two .header-button a {
+    background: rgba(16, 18, 16, 0);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.style-two .header-button a i {
+    color: #8129D7;
+}
+
+/*** Sub Menu Style 
+==========================***/
+
+.cyber-security_menu ul .sub-menu {
+    position: absolute;
+    left: 0;
+    top: 130%;
+    width: 217px;
+    text-align: left;
+    background: #fff;
+    margin: 0;
+    z-index: 1;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    transition: .5s;
+    visibility: hidden;
+    border-top: 2px solid #8129D7;
+    opacity: 0;
+}
+
+.cyber-security_menu ul li:hover>.sub-menu {
+    visibility: visible;
+    top: 100%;
+    opacity: 1;
+}
+
+.cyber-security_menu ul .sub-menu li {
+    position: relative;
+}
+
+.cyber-security_menu ul .sub-menu li a {
+    display: block;
+    padding: 12px 20px;
+    margin: 0;
+    line-height: 1.3;
+    letter-spacing: normal;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    -webkit-transition: .1s;
+    transition: .1s;
+    visibility: inherit !important;
+    color: #9623D9 !important;
+    position: relative;
+    z-index: 1;
+}
+
+.cyber-security_menu ul .sub-menu li:hover>a,
+.cyber-security_menu ul .sub-menu .sub-menu li:hover>a,
+.cyber-security_menu ul .sub-menu .sub-menu .sub-menu li:hover>a,
+.cyber-security_menu ul .sub-menu .sub-menu .sub-menu .sub-menu li:hover>a {
+    color: #fff !important;
+}
+
+.sub-menu li a:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    background-image: linear-gradient(90deg, #c115db 0%, #692fd5 100%);
+    margin: auto;
+    transition: .5s;
+    z-index: -1;
+}
+
+.sub-menu li a:hover:before {
+    width: 100%;
+}
+
+/* sub menu 2 
+=================*/
+
+.cyber-security_menu ul .sub-menu .sub-menu {
+    left: 100%;
+    top: 130%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.cyber-security_menu ul .sub-menu li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 0%;
+}
+
+/* sub menu 3 
+==================*/
+
+.cyber-security_menu ul .sub-menu .sub-menu li {
+    position: relative;
+}
+
+.cyber-security_menu ul .sub-menu .sub-menu .sub-menu {
+    right: 100%;
+    left: auto;
+    top: 130%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.cyber-security_menu ul .sub-menu .sub-menu li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 0%;
+}
+
+ul.sub-menu li a span {
+    background: #00cc99;
+    padding: 5px 10px;
+    color: #fff;
+    opacity: 1;
+    font-family: 'Fira Sans';
+    border-radius: 2px;
+    margin-left: 5px;
+    transition: .5s;
+}
+
+ul.sub-menu li:hover a span {
+    background: rgba(255, 255, 255, 0.20);
+}
+
+/* sub menu 4 
+====================*/
+
+.cyber-security_menu ul .sub-menu .sub-menu .sub-menu li {
+    position: relative;
+}
+
+.cyber-security_menu ul .sub-menu .sub-menu .sub-menu li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 0%;
+}
+
+.cyber-security_menu li a:hover:before {
+    width: 101%;
+}
+
+.cyber-security_nav_manu.sticky .logo_img {
+    display: none;
+}
+
+.main_sticky {
+    display: none;
+}
+
+.cyber-security_nav_manu.sticky .main_sticky {
+    display: inherit;
+}
+
+.mobile-menu.mean-container {
+    overflow: hidden;
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Start cyber-security Slider Section Css -->
+<!-- ============================================================== -->*/
+
+.hero-section {
+    height: 766px;
+    position: relative;
+    z-index: 1;
+}
+
+.slider-content h5 {
+    font-size: 14px;
+    color: #7a2ad5;
+    font-weight: 500;
+    margin: auto;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.slider-content h5:before {
+    position: absolute;
+    content: "";
+    left: 190px;
+    top: 12px;
+    width: 100%;
+    height: 100%;
+    background: url(../image/shape0.png);
+    background-repeat: no-repeat;
+}
+
+.slider-content h1 {
+    font-size: 55px;
+    letter-spacing: -2px;
+    line-height: 70px;
+    color: #202020;
+    font-weight: 800;
+    font-family: "Mulish";
+    margin: auto;
+}
+
+.slider-content p {
+    font-size: 18px;
+    line-height: 26px;
+    color: #919191;
+    font-weight: 400;
+    margin: 10px 0 27px;
+    width: 90%;
+}
+
+.slider-content a {
+    font-size: 18px;
+    line-height: 26px;
+    color: #919191;
+    font-weight: 400;
+    margin: 10px 0 27px;
+    width: 90%;
+    text-decoration: none; 
+}
+
+
+
+
+
+.hero-button {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.hero-button a {
+    display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Rubik";
+    border-radius: 6px;
+    background-image: linear-gradient(90deg, #c115db 0%, #692fd5 100%);
+    padding: 16px 25px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-button a:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    transition: .5s;
+    border-radius: 6px;
+    transform: scale(0);
+    z-index: -1;
+    background: linear-gradient(to right, #c115db, #692fd5, #7A2AD7, #c115db);
+}
+
+.hero-button a:hover:before {
+    transform: scale(1);
+}
+
+.hero-button a i {
+    display: inline-block;
+    font-size: 14px;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.hero-video-button {
+    display: inline;
+}
+
+.hero-video-button a span {
+    display: inline;
+    font-size: 18px;
+    color: #8527d5;
+    font-weight: 500;
+    margin-left: 18px;
+}
+
+.hero-video-button a i {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 30px;
+    background-image: linear-gradient(90deg, #c115db 0%, #692fd5 100%);
+    color: #ffff;
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+    top: 6px;
+}
+
+.hero-thumb img {
+    width: 100%;
+}
+
+.hero-shape {
+    position: absolute;
+    top: -100px;
+    left: 0;
+}
+
+.hero-shape1 {
+    position: absolute;
+    right: 0;
+    top: -100px;
+    z-index: -1;
+}
+
+.hero-shape2 {
+    position: absolute;
+    right: 45%;
+    bottom: 80px;
+    animation: 8.0s ease 0s infinite normal none running bounce;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(35px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.hero-shape3 {
+    position: absolute;
+    right: 23%;
+    bottom: 62px;
+    animation: 10.0s ease 0s infinite normal none running bounce1;
+}
+
+@keyframes bounce1 {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(35px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/*<!-- Start cyber-security section-title Css -->*/
+
+.section-title {
+    margin-bottom: 55px;
+}
+
+.section-title h5 {
+    display: inline-block;
+    margin: 0 auto 12px;
+    font-size: 16px;
+    color: #5f2ced;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+}
+
+.section-title h5:before {
+    position: absolute;
+    content: "";
+    left: 72px;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+    background: url(../image/service-shape.png);
+    background-repeat: no-repeat;
+}
+
+.section-title h1 {
+    margin: auto;
+    font-size: 30px;
+    line-height: 40px;
+    color: #202020;
+    font-weight: 700;
+    font-family: "Mulish";
+}
+
+.section-title p {
+    width: 65%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202020;
+    font-weight: 400;
+    font-family: "Rubik";
+    margin: 23px auto 0 0;
+}
+
+/*section-title-two*/
+.section-title-left {
+    margin-bottom: 59px;
+}
+
+.section-title-left h5 {
+    display: inline-block;
+    margin: 0 auto 12px;
+    font-size: 16px;
+    color: #5f2ced;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+}
+
+.section-title-left h5:before {
+    position: absolute;
+    content: "";
+    left: 136px;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+    background: url(../image/service-shape.png);
+    background-repeat: no-repeat;
+}
+
+.section-title-left h5:after {
+    position: absolute;
+    content: "";
+    right: 62px;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+    background: url(../image/service-shape3.png);
+    background-repeat: no-repeat;
+}
+
+.section-title-left h1 {
+    margin: auto;
+    font-size: 30px;
+    line-height: 40px;
+    color: #202020;
+    font-weight: 700;
+    font-family: "Mulish";
+}
+
+.section-title-left p.description {
+    width: 44%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202020;
+    font-weight: 400;
+    font-family: "Rubik";
+    margin: 23px auto 0;
+}
+
+/*<!-- ============================================================== -->
+<!-- Start cyber-security feature Section  -->
+<!-- ============================================================== -->*/
+
+.feature-section {
+    background: url(../image/feature-bg.png);
+    padding: 150px 0 115px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.row.upper {
+    height: 404px;
+    border-radius: 30px;
+    background-image: linear-gradient(90deg, #c115db 0%, #692fd5 100%);
+    padding: 0 38px 0;
+}
+
+.single-feature-box {
+    padding: 0 50px 0;
+}
+
+.single-feature-box h3 {
+    font-size: 18px;
+    color: #6a31d7;
+    font-weight: 500;
+    font-family: "Rubik";
+    margin: auto;
+    background: #FCF6FE;
+    display: inline-block;
+    width: 185px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 6px;
+    text-align: center;
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+}
+
+.single-feature-box h3:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    transition: .5s;
+    background: linear-gradient(to right, #c115db, #692fd5, #7A2AD7, #c115db);
+    border-radius: 6px;
+    z-index: -1;
+    transform: scale(0);
+}
+
+.single-feature-box:hover h3:before {
+    transform: scale(1);
+}
+
+.single-feature-box:hover h3 {
+    color: #FFF;
+}
+
+.single-feature-box p {
+    opacity: 0.702;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 25px auto 18px 0;
+    width: 95%;
+}
+
+.single-feature-box a {
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+}
+
+.single-feature-box a i {
+    font-size: 12px;
+    padding-left: 5px;
+    position: absolute;
+    left: 65px;
+    top: 2px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.single-feature-box a:hover i {
+    opacity: 1;
+    margin-left: 20px;
+}
+
+.single-feature-box.up {
+    position: relative;
+    z-index: 1;
+}
+
+.single-feature-box.up:before {
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: -10px;
+    opacity: 0.231;
+    width: 1px;
+    height: 200px;
+    background: #ffffff;
+}
+
+.single-feature-box.up:after {
+    position: absolute;
+    content: "";
+    right: -22px;
+    top: -10px;
+    opacity: 0.231;
+    width: 1px;
+    height: 200px;
+    background: #ffffff;
+}
+
+/*---owl-dots---*/
+
+.owl-dots {
+    position: absolute;
+    left: 50%;
+    bottom: -40px;
+    border-radius: 100%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.owl-dot.active {
+    width: 22px;
+    height: 9px;
+    border-radius: 4px;
+    background-color: #563afb;
+}
+
+.owl-dot {
+    margin: 0 5px 0;
+    width: 9px;
+    height: 9px;
+    line-height: 9px;
+    border-radius: 4px;
+    background-color: #563afb;
+    display: inline-block !important;
+}
+
+/*<!-- ============================================================== -->
+<!-- End cyber-security feature Section  -->
+<!-- ============================================================== -->*/
+
+
+
+
+
+
+/*<!-- ============================================================== -->
+<!-- Start cyber-security service Section  -->
+<!-- ============================================================== -->*/
+
+.service-section {
+    padding: 43px 0 38px;
+}
+
+.service-project-button {
+    text-align: right;
+}
+
+.service-project-button a {
+    display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Rubik";
+    border-radius: 6px;
+    background-image: linear-gradient(90deg, #b519d9 0%, #6931d7 100%);
+    padding: 14px 26px;
+    position: relative;
+    z-index: 1;
+}
+
+.service-project-button a:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transition: .5s;
+    background: linear-gradient(to right, #c115db, #692fd5, #7A2AD7, #c115db);
+    border-radius: 6px;
+    transform: scale(0);
+    z-index: -1;
+}
+
+.service-project-button a:hover:before {
+    transform: scale(1);
+}
+
+.service-project-button a i {
+    display: inline-block;
+    font-size: 14px;
+    color: #ffffff;
+    padding-left: 15px;
+}
+
+.single-service-box {
+    margin-bottom: 30px;
+    border-radius: 15px;
+    background-color: #6a31d7;
+    padding: 55px 45px 35px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.single-service-box:hover {
+    transform: translateY(15px);
+}
+
+.single-service-box:hover {
+    background-image: linear-gradient(90deg, #b519d9 0%, #6931d7 100%);
+}
+
+.single-service-box:hover:before {
+    display: none;
+}
+
+.single-service-box:before {
+    position: absolute;
+    content: "";
+    left: 145px;
+    bottom: 60px;
+    width: 100%;
+    height: 100%;
+    background: url(../image/service-shape1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(350deg);
+    transition: .5s;
+}
+
+.single-service-box:before {
+    position: absolute;
+    content: "";
+    left: 145px;
+    bottom: 40px;
+    width: 100%;
+    height: 100%;
+    background: url(../image/service-shape1.png);
+    background-repeat: no-repeat;
+    transform: rotate(356deg);
+    background-size: contain;
+}
+
+.service-icon img {
+    border-radius: 6px;
+    filter: drop-shadow(0 0 22.5px rgba(255, 0, 0, 0.0));
+    background-color: #611ae7;
+    display: inline-block;
+    padding: 14px 14px;
+    transition: .5s;
+}
+
+.service-icon img:hover {
+    transform: translateY(-10px);
+}
+
+.service-title {
+    position: absolute;
+    top: 28px;
+    right: 28px;
+}
+
+.service-title h1 {
+    font-size: 70px;
+    font-weight: 400;
+    filter: drop-shadow(0 0 22.5px rgba(255, 0, 0, 0.2));
+    -webkit-text-stroke-width: 2px;
+    color: transparent;
+    -webkit-text-stroke-color: #ffffff;
+    margin: auto;
+    font-family: "Rubik";
+}
+
+.service-content h4 {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Rubik";
+    margin: auto;
+    padding: 27px 0 25px;
+}
+
+.service-content p {
+    opacity: 0.702;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Rubik";
+    margin: 0 auto 0 0;
+    width: 85%;
+}
+
+/*<!-- ============================================================== -->
+<!-- End cyber-security service Section  -->
+<!-- ============================================================== -->*/
+
+
+
+
+
+
+/*<!-- ============================================================== -->
+<!-- Start cyber-security about Section  -->
+<!-- ============================================================== -->*/
+
+.about-section {
+    padding: 120px 0 105px;
+}
+
+.about-section .section-title {
+    margin-bottom: 35px;
+}
+
+.about-section .section-title h5:before {
+    left: 80px;
+}
+
+.about-section .section-title p {
+    width: 82%;
+    color: #616161;
+}
+
+.about-thumb {
+    position: relative;
+    z-index: 1;
+}
+
+.about-shape {
+    position: absolute;
+    top: -555px;
+    right: 100px;
+    animation-name: rotateme;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotateme {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(250deg);
+    }
+}
+
+@keyframes alltuchtopdown {
+    0% {
+        -webkit-transform: rotateX(0deg) translateY(0px);
+        -ms-transform: rotateX(0deg) translateY(0px);
+        transform: rotateX(0deg) translateY(0px)
+    }
+
+    50% {
+        -webkit-transform: rotateX(0deg) translateY(-20px);
+        -ms-transform: rotateX(0deg) translateY(-20px);
+        transform: rotateX(0deg) translateY(-20px)
+    }
+
+    100% {
+        -webkit-transform: rotateX(0deg) translateY(0px);
+        -ms-transform: rotateX(0deg) translateY(0px);
+        transform: rotateX(0deg) translateY(0px)
+    }
+}
+
+.about-shape1 {
+    position: absolute;
+    bottom: 0;
+    right: 105px;
+    animation: 8.0s ease 0s infinite normal none running bounce3;
+}
+
+.about-shape2 {
+    position: absolute;
+    bottom: 90px;
+    left: -118px;
+    animation: 7s ease 0s infinite normal none running bounce3;
+}
+
+@keyframes bounce3 {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(35px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+
+.about-icon-box {
+    display: inline-flex;
+    margin-bottom: 40px;
+}
+
+.icon {
+    position: relative;
+    padding-right: 35px;
+    top: 26px;
+}
+
+.icon img {
+    transition: .5s;
+}
+
+.icon img:hover {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.about-title h4 {
+    font-size: 20px;
+    color: #202020;
+    font-weight: 700;
+    font-family: "Mulish";
+    margin: auto;
+}
+
+.about-title p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #616161;
+    font-weight: 400;
+    margin: 8px auto 0 0;
+    width: 66%;
+}
+
+.about-button {
+    margin-top: 14px;
+}
+
+.about-button a {
+    display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Rubik";
+    border-radius: 6px;
+    background-image: linear-gradient(90deg, #b519d9 0%, #6931d7 100%);
+    padding: 14px 26px;
+    position: relative;
+    z-index: 1;
+}
+
+.about-button a i {
+    display: inline-block;
+    font-size: 14px;
+    color: #ffffff;
+    padding-left: 15px;
+}
+
+.about-button a:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transition: .5s;
+    background: linear-gradient(to right, #c115db, #692fd5, #7A2AD7, #c115db);
+    border-radius: 6px;
+    transform: scale(0);
+    z-index: -1;
+}
+
+.about-button a:hover:before {
+    transform: scale(1);
+}
+
+/*<!-- ============================================================== -->
+<!-- End cyber-security about Section  -->
+<!-- ============================================================== -->*/
+
+
+
+
+
+/*<!-- ============================================================== -->
+<!-- Start cyber-security why choose us Section  -->
+<!-- ============================================================== -->*/
+
+.why-choose-us-section {
+    padding: 0 0 70px;
+}
+
+.why-choose-us-section .section-title h5:before {
+    left: 130px;
+}
+
+.why-choose-us-section .section-title {
+    margin-bottom: 30px;
+}
+
+/*accordion*/
+.accordion li {
+    position: relative;
+    list-style: none;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    filter: drop-shadow(0px 12px 22.5px rgba(0, 0, 0, 0.15));
+    background-color: #ffffff;
+    transition: .5s;
+}
+
+.accordion li a {
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    user-select: none;
+    color: #7d43eb !important;
+    padding: 11px 25px 11px;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.accordion li a.active {
+    background-image: linear-gradient(90deg, #c115db 0%, #692fd5 100%);
+    border-radius: 6px;
+    color: #FFFF !important;
+}
+
+.accordion li a span i {
+    display: inline-block;
+    float: right;
+    transform: rotate(270deg);
+    transition: .5s;
+    font-size: 16px;
+    transition: .5s;
+}
+
+a.active span i {
+    transform: rotate(187deg) !important;
+}
+
+.accordion li p {
+    display: none;
+    font-size: 16px;
+    color: #616161;
+    margin: auto;
+    padding: 25px 25px 25px;
+}
+
+a.active:after {
+    transform: rotate(0deg);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+a.active:before {
+    display: none;
+}
+
+.why-choose-us-thumb {
+    position: relative;
+    z-index: 1;
+    left: 50px;
+}
+
+.why-choose-us-shape {
+    position: absolute;
+    z-index: -1;
+    bottom: 185px;
+    right: 40px;
+}
+
+/*<!-- ============================================================== -->
+<!-- End cyber-security why choose us Section  -->
+<!-- ============================================================== -->*/
+
+
+
+
+
+/*<!-- ============================================================== -->
+<!-- Start cyber-security counter Section  -->
+<!-- ============================================================== -->*/
+
+.counter-section {
+    background: url(../image/counter-bg.png);
+    padding: 96px 0 70px;
+    background-attachment: fixed;
+}
+
+.single-counter-box {
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 60px 0 32px;
+    margin-bottom: 30px;
+    transition: .5s;
+}
+
+.single-counter-box:hover {
+    transform: translateY(-20px);
+}
+
+.counter-icon {
+    position: relative;
+}
+
+.counter-icon:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: -20px;
+    width: 100%;
+    height: 188%;
+    background: url(../image/counter-shape.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.counter-text {
+    padding-top: 32px;
+}
+
+.counter-text h1 {
+    font-size: 46px;
+    color: #4d1da8;
+    font-weight: 700;
+    font-family: "Mulish";
+    margin: auto;
+    display: inline;
+}
+
+.counter-text span {
+    font-size: 40px;
+    color: #4d1da8;
+    font-weight: 700;
+    font-family: "Mulish";
+    display: inline;
+}
+
+.counter-text p {
+    font-size: 18px;
+    color: #4d1da8;
+    font-weight: 700;
+    text-align: center;
+    margin: 6px auto 0;
+    font-family: "Mulish";
+}
+
+/*<!-- ============================================================== -->
+<!-- End cyber-security counter Section  -->
+<!-- ============================================================== -->*/
+
+
+
+
+/*<!-- ============================================================== -->
+<!-- Start cyber-security testimonial Section  -->
+<!-- ============================================================== -->*/
+
+.testimonial-section {
+    background: url(../image/teasti-bg.png);
+    padding: 80px 0 140px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.testimonial-section .section-title h5:before {
+    left: 92px;
+}
+
+.testimonial-button {
+    margin-top: -28px;
+}
+
+.testimonial-button a {
+    display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Rubik";
+    border-radius: 6px;
+    background-image: linear-gradient(90deg, #b519d9 0%, #6931d7 100%);
+    padding: 14px 27px;
+    position: relative;
+    z-index: 1;
+}
+
+.testimonial-button a i {
+    display: inline-block;
+    font-size: 14px;
+    color: #ffffff;
+    padding-left: 15px;
+}
+
+.testimonial-button a:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transition: .5s;
+    background: linear-gradient(to right, #c115db, #692fd5, #7A2AD7, #c115db);
+    border-radius: 6px;
+    transform: scale(0);
+    z-index: -1;
+}
+
+.testimonial-button a:hover:before {
+    transform: scale(1);
+}
+
+.single-testi-box {
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 48px 50px 25px;
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+    box-shadow: 0 13px 28px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.0);
+}
+
+.single-testi-box:before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 62%;
+    width: 100%;
+    height: 100%;
+    background: url(../image/testi-shape.png);
+    background-repeat: no-repeat;
+}
+
+.testi-desc p {
+    font-size: 20px;
+    line-height: 26px;
+    color: #616161;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Rubik";
+    margin: 0 auto 25px 0;
+    width: 90%;
+}
+
+.img {
+    display: inline-block;
+}
+
+.testi-icon {
+    position: absolute;
+    top: -26px;
+    left: 46%;
+    width: 57px;
+    height: 57px;
+    line-height: 57px;
+    border-radius: 28px;
+    background: #ffffff;
+}
+
+.testi-icon img {
+    margin-top: -15px;
+    margin-left: -15px;
+}
+
+.people-text h5 {
+    font-size: 18px;
+    color: #0d0c0c;
+    font-weight: 500;
+    font-family: "Rubik";
+    margin: auto;
+}
+
+.people-text p {
+    font-size: 14px;
+    color: #0d0c0c;
+    font-weight: 400;
+    font-family: "Rubik";
+    margin: 2px auto 0;
+}
+
+.testi-content {
+    margin: 0 0 -28px;
+}
+
+.people-text {
+    display: inline-table;
+    position: relative;
+    top: -35px;
+}
+
+.star-icon {
+    position: absolute;
+    bottom: 60px;
+    right: 70px;
+}
+
+.star-icon ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.star-icon ul li {
+    color: #743fd9;
+    font-size: 16px;
+}
+
+.testimonial-section .owl-dots {
+    bottom: -50px;
+}
+
+/*<!-- ============================================================== -->
+<!-- End cyber-security testimonial Section  -->
+<!-- ============================================================== -->*/
+
+
+
+
+
+
+/*<!-- ============================================================== -->
+<!-- Start cyber-security brand Section  -->
+<!-- ============================================================== -->*/
+
+.brand-section {
+    padding: 60px 0 85px;
+}
+
+.single-brand-box {
+    margin-bottom: 30px;
+    text-align: -webkit-center;
+}
+
+.brand-thumb img {
+    filter: brightness(10) invert(10);
+    transition: .5s;
+}
+
+.single-brand-box:hover .brand-thumb img {
+    filter: brightness(1) invert(0);
+}
+
+/*<!-- ============================================================== -->
+<!-- End cyber-security brand Section  -->
+<!-- ============================================================== -->*/
+
+
+
+
+
+
+
+/*<!-- ============================================================== -->
+<!-- Start cyber-security pricing Section  -->
+<!-- ============================================================== -->*/
+
+.pricing-section {
+    padding: 0 0 65px;
+}
+
+.pricing-section.price {
+    padding: 120px 0 90px;
+}
+
+.pricing-section .section-title-left h5:before {
+    left: 122px;
+}
+
+.pricing-section .section-title-left h5:after {
+    right: 62px;
+}
+
+.pricing-section .section-title-left h5 {
+    margin: 0 auto 6px;
+}
+
+.pricing-section .section-title-left p.description {
+    color: #616161;
+    margin: 17px auto 0;
+}
+
+
+/*-- pricing-tab--*/
+
+.pricing-tab-button {
+    text-align: center;
+    margin: -31px 0 60px;
+}
+
+.pricing-tab-button ul li {
+    display: inline-block;
+}
+
+.pricing-tab-button ul li button.active {
+    border: none !important;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffff;
+    background-image: linear-gradient(94deg, #ca35e5 0%, #7a29d5 100%);
+    width: 136px;
+    height: 44px;
+}
+
+.pricing-tab-button ul li button {
+    border: none;
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: 500;
+    font-family: "Mulish";
+    text-align: center;
+    width: 134px;
+    height: 44px;
+    background: #E5E2FF;
+    margin-left: -2px;
+}
+
+input:checked+.slider:before {
+    transform: translateX(26px);
+}
+
+h2.price-yearly {
+    display: none;
+}
+
+.tab-content {
+    display: none;
+    transition: .5s;
+    -webkit-animation: move 0.4s ease-in;
+    animation: FadeInUp 0.5s ease-in;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.pricing-single-items.style_one.style_3 {
+    padding: 48px 0 40px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 4px;
+    filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.15));
+    background: #ffffff;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.pricing-single-items.style_one.style_3:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: -28px;
+    width: 100%;
+    height: 100%;
+    background: url(../image/pricing-bg.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.pricing-single-items.style_one.style_3:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: -28px;
+    width: 100%;
+    height: 100%;
+    background: url(../image/pricing-shape.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0;
+    transition: .5s;
+}
+
+.pricing-single-items.style_one.style_3:hover:after {
+    opacity: 1;
+}
+
+h3.pricing-plan2 {
+    margin: auto;
+    display: inline-block;
+    font-size: 16px;
+    color: #1c1c1c;
+    font-weight: 500;
+    text-align: center;
+    width: 121px;
+    height: 34px;
+    line-height: 34px;
+    border-radius: 4px;
+    background: #ffffff;
+}
+
+.pricing-plan h2 {
+    margin: 18px 0 84px;
+    font-size: 46px;
+    color: #fefefe;
+    font-weight: 600;
+    text-align: center;
+}
+
+.pricing-plan h2 span {
+    font-size: 18px;
+    color: #FFF;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.pricing-desc p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #616161;
+    font-weight: 400;
+    font-family: "Rubik";
+    text-align: center;
+    width: 71%;
+    margin: auto;
+}
+
+.pricing-feature {
+    text-align: left;
+    padding: 48px 85px 35px;
+    position: relative;
+    z-index: 1;
+}
+
+.pricing-feature:before {
+    position: absolute;
+    content: "";
+    left: 70px;
+    top: 23px;
+    opacity: 0.102;
+    width: 239px;
+    height: 1px;
+    background: #533efe;
+}
+
+.pricing-feature:after {
+    position: absolute;
+    content: "";
+    left: 70px;
+    bottom: 13px;
+    opacity: 0.102;
+    width: 239px;
+    height: 1px;
+    background: #533efe;
+}
+
+.pricing-feature ul {
+    list-style: none;
+}
+
+.pricing-feature ul li {
+    padding-bottom: 7px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: "Mulish";
+    color: #616161;
+    transition: .5s;
+}
+
+.pricing-single-items.style_one.style_3:hover .pricing-feature ul li {
+    color: #6a30d6;
+}
+
+.pricing-feature ul li i {
+    display: inline-block;
+    color: #4f3bf3;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.pricing-btn {
+    padding-top: 25px;
+}
+
+.pricing-btn a {
+    display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Rubik";
+    border-radius: 6px;
+    background-image: linear-gradient(90deg, #c115db 0%, #692fd5 100%);
+    padding: 14px 27px;
+    position: relative;
+    z-index: 1;
+}
+
+.pricing-btn a i {
+    display: inline-block;
+    font-size: 14px;
+    color: #ffffff;
+    padding-left: 15px;
+}
+
+.pricing-btn a:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #c115db, #692fd5, #7A2AD7, #c115db);
+    transition: .5s;
+    transform: scale(0);
+    border-radius: 6px;
+    z-index: -1;
+}
+
+.pricing-btn a:hover:before {
+    transform: scale(1);
+}
+
+.pricing-button {
+    padding-top: 25px;
+}
+
+.pricing-button a {
+    display: inline-block;
+    font-size: 18px;
+    color: #09aff2;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 2px;
+    background: #ffffff;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+/*<!-- ============================================================== -->
+	<!-- End cyber-security pricing Section  -->
+<!-- ============================================================== -->*/
+
+
+
+
+
+
+
+/*<!-- ============================================================== -->
+ <!-- Start cyber-security blog Section  -->
+<!-- ============================================================== -->*/
+
+.blog-section {
+    padding: 0 0 75px;
+}
+
+.blog-section.upper {
+    padding: 115px 0 90px;
+}
+
+.single-blog-box {
+    background: #ffffff;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.15));
+    background-color: #ffffff;
+}
+
+.blog-thumb {
+    overflow: hidden;
+}
+
+.blog-thumb img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    transition: .5s;
+}
+
+.single-blog-box:hover .blog-thumb img {
+    transform: scale(1.1);
+}
+
+
+.blog-meta-icon {
+    display: inline-block;
+}
+
+.blog-meta-icon h6 i {
+    color: #c215db;
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+.blog-meta-icon h6 span {
+    font-size: 16px;
+    color: #646464;
+    font-weight: 400;
+    font-family: "Mulish";
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.blog-meta-icon h6 span:before {
+    position: absolute;
+    content: "";
+    right: -35px;
+    top: 6px;
+    opacity: 0.251;
+    width: 7px;
+    height: 7px;
+    border-radius: 3px;
+    background-color: #777af2;
+}
+
+.blog-meta-comment-icon {
+    display: inline-block;
+    float: right;
+}
+
+.blog-meta-comment-icon h6 i {
+    color: #c215db;
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+.blog-meta-comment-icon h6 span {
+    font-size: 16px;
+    color: #646464;
+    font-weight: 400;
+    font-family: "Mulish";
+    display: inline-block;
+    margin: auto;
+}
+
+.blog-content {
+    padding: 17px 40px 35px;
+}
+
+.blog-content h3 {
+    margin: auto;
+}
+
+.blog-content h3 a {
+    margin: inherit;
+    display: inline-block;
+    transition: .5s;
+    width: 82%;
+    font-size: 22px;
+    letter-spacing: -1px;
+    line-height: 32px;
+    color: #1d2124;
+    font-weight: 600;
+    font-family: "Mulish";
+    padding-top: 43px;
+    position: relative;
+    z-index: 1;
+}
+
+.blog-content h3 a:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 20px;
+    width: 121%;
+    height: 100%;
+    border-top: 1px solid #5a49f8;
+    opacity: 0.102;
+}
+
+.single-blog-box:hover .blog-content h3 a {
+    color: #c215db;
+}
+
+.blog-content p {
+    width: 92%;
+    margin: inherit;
+    padding: 11px 0 15px;
+    transition: .5s;
+    font-size: 16px;
+    line-height: 28px;
+    color: #646464;
+    font-weight: 400;
+    font-family: "Mulish";
+}
+
+.single-blog-box:hover .blog-content p {
+    color: #c215db;
+}
+
+.blog-button a {
+    display: inline-block;
+    font-size: 16px;
+    color: #762cd7;
+    font-weight: 700;
+    font-family: "Mulish";
+}
+
+.blog-button a i {
+    display: inline-block;
+    color: #762cd7;
+    font-size: 12px;
+    padding-left: 5px;
+    position: relative;
+    left: -40px;
+    top: 1px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.single-blog-box:hover .blog-button a i {
+    opacity: 1;
+    margin-left: 40px;
+}
+
+.single-blog-box:hover .blog-button a {
+    color: #000000;
+}
+
+.single-blog-box:hover .blog-button a i {
+    color: #000000;
+}
+
+/*<!-- ============================================================== -->
+<!-- End cyber-security blog Section  -->
+<!-- ============================================================== -->*/
+
+
+
+
+
+
+
+/*<!-- ============================================================== -->
+ <!-- Start cyber-security subscribe Section  -->
+<!-- ============================================================== -->*/
+
+.subscribe-section {
+    padding: 0 0 120px;
+    overflow: hidden;
+}
+
+.subscribe-section.up {
+    padding: 95px 0 120px;
+}
+
+.row.subscribe {
+    margin-top: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(90deg, #c115db 0%, #692fd5 100%);
+    padding: 108px 0 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.subscribe-shape {
+    position: absolute;
+    z-index: -1;
+    bottom: 15px;
+    left: 58%;
+    animation: 8.0s ease 0s infinite normal none running bounce1;
+}
+
+.subscribe-section .section-title-left {
+    margin-bottom: 28px;
+}
+
+.section-title-left h4 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Mulish";
+    margin: 0 auto 22px;
+}
+
+.section-title-left h2 {
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Mulish";
+}
+
+.subscribe-section .section-title-left h1 {
+    margin: auto;
+    font-size: 50px;
+    line-height: 65px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Mulish";
+    text-align: center;
+}
+
+.enter-text {
+    text-align: center;
+}
+
+.enter-text input {
+    display: inline-block;
+    border: 1px solid #ffff;
+    padding: 0 0 0 35px;
+    background: #ffffff;
+    width: 60%;
+    height: 60px;
+    border-radius: 30px;
+    margin-bottom: 50px; 
+}
+
+.enter-text input::placeholder {
+    opacity: 0.510;
+    font-size: 18px;
+    color: #616161;
+    font-weight: 400;
+}
+
+.Subcribe-button button {
+    display: inline-block;
+    border: 1px solid #7c2ad7;
+    z-index: 1;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Rubik";
+    width: 140px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #7c2ad7;
+    position: relative;
+    top: -105px;
+    left: 22%;
+}
+.Subcribe-button-2 button {
+    display: inline-block;
+    border: 1px solid #7c2ad7;
+    z-index: 1;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Rubik";
+    width: 140px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #7d32d2;
+    position: relative;
+    left: 65%;
+}
+.Subcribe-button-3 button {
+    display: inline-block;
+    border: 1px solid #944fe1;
+    z-index: 1;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Rubik";
+    width: 140px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #9350de;
+    position: relative;
+
+}
+.enter-from {
+    position: relative; /* 确保 textarea 的定位是相对于这个父元素 */  
+    text-align: center; /* 这实际上对定位 textarea 没有帮助，但可以帮助其他内联或内联块级元素居中 */  
+    width: 100%; /* 如果需要的话，设置父元素的宽度为100% */
+}
+.enter-from .left-half {  
+    float: left;  
+    width: 50%;  
+  }  
+    
+  .enter-from .right-half {  
+    float: right;  
+    width: 50%;  
+  }  
+.enter-from input {
+    display: inline-block;
+    border: 1px solid #ffff;
+    padding: 0 0 0 35px;
+    background: #ffffff;
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 30px; 
+}
+.enter-from textarea{
+    display: inline-block;  
+    border: 5px solid #ffff;  
+    padding: 0 0 0 15px;  
+    background: #ffffff;  
+    width: 70%; 
+    height: 250px;  
+    border-radius: 20px;   
+    margin-bottom: 30px;      
+}
+.enter-from input::placeholder {
+    opacity: 0.510;
+    font-size: 18px;
+    color: #616161;
+    font-weight: 400;
+}
+.enter-from textarea::placeholder {
+    opacity: 0.510;
+    color: #616161;
+    font-weight: auto;
+}
+/* .enter-from .el-select {  
+    display: inline-block;  
+    border:5px solid #ffff;  
+    background: #ffffff;  
+    width: 80%;  
+    height: 40px;  
+    border-radius: 20px;  
+    margin-bottom: 30px;  
+    overflow: hidden;  
+  } 
+.enter-from .el-select .placeholder{
+    font-size: 18px;
+    opacity: 0.510;
+    color: #616161;
+    font-weight: auto;
+}
+    
+.enter-from .el-select .el-option {  
+    display: inline-block;  
+    border: none;  
+    background: none;  
+    width: 20%;  
+    height: 50px;  
+    border-radius: 0;  
+    margin-bottom: 0;  
+    padding-left: 35px;  
+  }  
+  .el-upload-list__item-thumbnail{  
+    max-width: 100%; 
+    max-height: 600px; 
+  }  
+  
+  
+  .el-upload-list__item-thumbnail {  
+    width: 33%; 
+    height: auto;   
+  }   */
+  
+  .flex-center {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+  }  
+
+/*<!-- ============================================================== -->
+<!-- End cyber-security subscribe Section  -->
+<!-- ============================================================== -->*/
+
+
+
+
+
+
+/*<!-- ============================================================== -->
+<!-- Start cyber-security footer Section Css -->
+<!-- ============================================================== -->*/
+
+.footer-section {
+    padding: 102px 0 12px;
+    background: url(../image/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}
+
+.company-info-desce p {
+    opacity: 0.702;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Mulish";
+    margin: 26px auto 25px;
+    width: 100%;
+}
+
+.footer-widget-social-icon ul {
+    list-style: none;
+}
+
+.footer-widget-social-icon ul li {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-widget-social-icon ul li a {
+    display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 5px;
+    background-color: #B14DE1;
+    transition: .5s;
+}
+
+.footer-widget-social-icon ul li a:hover {
+    background: #FFFFFF;
+    color: #B14DE1;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.footer-widget-title {
+    padding-bottom: 28px;
+}
+
+.footer-widget-title h3 {
+    font-size: 24px;
+    letter-spacing: -1px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Mulish";
+    margin: auto;
+}
+
+
+.footer-widget-menu ul {
+    list-style: none;
+}
+
+.footer-widget-menu ul li {
+    padding: 0 0 5px;
+    margin-left: 35px;
+    position: relative;
+    z-index: 1;
+    opacity: 0.702;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Rubik";
+}
+
+.footer-widget-menu ul li:before {
+    position: absolute;
+    content: "";
+    left: -35px;
+    top: 12px;
+    width: 22px;
+    height: 1px;
+    background: #ffff;
+    transition: .5s;
+}
+
+.icon-box {
+    display: inline-flex;
+    padding-bottom: 28px;
+}
+
+.icon-box-content {
+    margin: -6px 0 0 23px;
+}
+
+.widget-icon i {
+    display: inline-block;
+    color: #ffff;
+    line-height: 46px;
+    text-align: center;
+    font-size: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+    background-color: #9C54E0;
+}
+
+.icon-box-content p {
+    margin: auto;
+    opacity: 0.702;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Mulish";
+}
+
+.icon-box-content h4 {
+    margin: 4px auto 0;
+    font-size: 18px;
+    letter-spacing: -1px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Mulish";
+}
+
+/*--copyright-section--*/
+
+.copyright-description {
+    padding-top: 93px;
+    position: relative;
+    z-index: 1;
+}
+
+.copyright-description:before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    left: 0;
+    top: -38px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #9E55E0;
+}
+
+.copyright-description p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+}
+
+.footer-shape {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 28%;
+    animation: 6s ease 0s infinite normal none running bounce3;
+}
+
+
+/*<!-- ============================================================== -->
+<!-- End cyber-security footer Section Css -->
+<!-- ============================================================== -->*/
+
+
+
+
+
+
+/*<!-- ============================================================== -->
+<!-- Start cyber-security breadcumb Menu  -->
+<!-- ============================================================== -->*/
+
+.breadcumb-section {
+    background: url(../image/counter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    height: 450px;
+    margin-top: -98px;
+}
+
+.breadcumb-title h1 {
+    margin: auto;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFF;
+    font-weight: 700;
+    font-family: "Mulish";
+}
+
+.breadcumb-content ul {
+    list-style: none;
+}
+
+.breadcumb-content ul li {
+    display: inline-block;
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.breadcumb-content ul li i {
+    display: inline-block;
+    font-size: 16px;
+    color: #ffff;
+    padding: 0 5px 0;
+}
+
+.breadcumb-content ul li a {
+    display: inline-block;
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 400;
+}
+
+/*<!-- ============================================================== -->
+	<!-- End cyber-security breadcumb Menu  -->
+<!-- ============================================================== -->*/
+
+
+
+
+
+
+/*<!-- ============================================================== -->
+<!-- Start cyber-security faq Section  -->
+<!-- ============================================================== -->*/
+
+.faq-section {
+    padding: 120px 0;
+}
+
+.google-map iframe {
+    width: 100%;
+    height: 420px;
+    border-radius: 10px;
+}
+
+/*<!-- ============================================================== -->
+<!-- End cyber-security faq Section  -->
+<!-- ============================================================== -->*/
+
+
+
+
+
+
+/*<!-- ============================================================== -->
+<!-- Start cyber-security contact now secton  -->
+<!-- ============================================================== -->*/
+
+.contact-now-section {
+    padding: 110px 0 90px;
+    background: #f5f5f5;
+}
+
+.single_contact_now {
+    text-align: center;
+    background: #fff;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 30px 30px 30px;
+}
+
+.single_contact_now_inner {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.single_contact_now:hover .single_contact_now_inner {
+    border: 2px solid #9623D9;
+}
+
+.single_contact_now_icon {
+    padding-top: 24px;
+}
+
+.single_contact_now_icon i {
+    font-size: 40px;
+    color: #9623D9;
+}
+
+.single_contact_now_content {
+    padding-bottom: 15px;
+}
+
+.single_contact_now_content h2 {
+    font-size: 22px;
+    padding-bottom: 12px;
+}
+
+.single_contact_now_content p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+.contact_now_area .section_title_inner h2 {
+    color: #fff;
+}
+
+.contact_now_area .section_title_text p {
+    color: #fff;
+}
+
+
+/*<!-- ============================================================== -->
+<!-- End cyber-security contact now section  -->
+<!-- ============================================================== -->*/
+
+
+
+
+
+
+/*<!-- ============================================================== -->
+	<!-- Start cyber-security contact2 secton  -->
+<!-- ============================================================== -->*/
+
+.contact2-section {
+    padding: 110px 0 120px;
+}
+
+.contact-form-main input {
+    width: 100%;
+    margin-bottom: 18px;
+    height: 45px;
+    padding-left: 15px;
+    border: 1px solid #dddd;
+    border-radius: 5px;
+}
+
+.contact-form-main textarea {
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 20px;
+    height: 218px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form-main button {
+    background: #9623D9;
+    border: 2px solid #9623D9;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    transition: all 0.5s ease 0s;
+    margin-top: 20px;
+    font-family: "Mulish";
+}
+
+.map {
+    width: 100%;
+    margin: 0;
+    height: 410px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+
+
+
+/*<!-- ============================================================== -->
+	<!-- End cyber-security contact2 section -->
+<!-- ============================================================== -->*/
+
+
+
+
+
+
+
+/*<!-- ============================================================== -->
+ <!-- Start cyber-security blog grid Section  -->
+<!-- ============================================================== -->*/
+
+.paginations {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+
+.page-numbers li {
+    display: inline-block;
+}
+
+.paginations a,
+.page-numbers span.current {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    margin: auto 5px;
+    border: 1px solid #ddd;
+    color: #888;
+}
+
+.paginations a:hover,
+.paginations a.current,
+.page-numbers span.current {
+    background: linear-gradient(90deg, #c115db 0%, #692fd5 100%);
+    border-color: linear-gradient(90deg, #c115db 0%, #692fd5 100%);
+    color: #fff;
+}
+
+
+/*<!-- ============================================================== -->
+<!-- End cyber-security blog grid Section  -->->
+<!-- ============================================================== -->*/
+
+
+
+
+
+
+/*<!-- ============================================================== -->
+<!-- Start cyber-security Blog Detaisl section  -->
+<!-- ============================================================== -->*/
+
+.blog-details-section {
+    padding: 120px 0;
+}
+
+.blog-thumb-left img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.blog-box {
+    border: 1px solid #dddd;
+    transition: .5s;
+    margin-bottom: 30px;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0px 10px 25px rgba(10, 81, 200, 0.05);
+    background: #ffff;
+}
+
+p.blog {
+    width: 50%;
+    margin-top: 0px;
+}
+
+.blog-content {
+    padding: 25px 40px 26px;
+}
+
+.blog-meta-left a {
+    color: #616161;
+    font-size: 16px;
+    margin-right: 22px;
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+}
+
+.blog-meta-left a:before {
+    position: absolute;
+    content: "";
+    right: -13px;
+    height: 12px;
+    top: 4px;
+    width: 1px;
+    background: #616161;
+}
+
+.blog-meta-left a:hover {
+    color: #692fd5;
+}
+
+.blog-meta-left span {
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+}
+
+.meta-title {
+    margin-top: 6px;
+}
+
+.meta-title a {
+    color: #0a0a0a;
+    font-size: 20px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.meta-title a:hover {
+    color: #692fd5;
+}
+
+.blog-content-left {
+    padding: 0 0 0 35px;
+}
+
+.blog-content-left h4 a {
+    color: #0a0a0a;
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    display: inline-block;
+    font-family: 'Mulish';
+}
+
+.blog-content-left p {
+    font-size: 16px;
+    line-height: 32px;
+    width: 98%;
+    opacity: 0.702;
+    color: #000;
+}
+
+/*Blog Social Share
+=======================*/
+
+.blogs-social-share {
+    padding: 24px 25px 25px;
+    margin: 40px 0 40px;
+    border-top: 1px solid rgba(16, 18, 16, 0.10196078431372549);
+    border-bottom: 1px solid rgba(16, 18, 16, 0.10196078431372549);
+}
+
+span.social-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #101210;
+}
+
+ul.social-share {
+    float: right;
+}
+
+ul.social-share li {
+    display: inline-block;
+    list-style: none;
+}
+
+ul.social-share li a {
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    background: #692fd5;
+    text-align: center;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-right: 7px;
+    position: relative;
+    z-index: 1;
+}
+
+ul.social-share li a:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #c115db;
+    border-radius: 3px;
+    z-index: -1;
+    transform: scale(0);
+    transition: .5s;
+}
+
+ul.social-share li a:hover:before {
+    transform: scale(1);
+}
+
+ul.social-share li a:hover {
+    color: #ffff;
+}
+
+.blog-details-auther {
+    margin: 35px 0;
+}
+
+.blog-details-author-inner {
+    background: #FFFFFF;
+    padding: 30px 30px 25px;
+    box-shadow: 0px 10px 25px rgba(10, 81, 200, 0.05);
+}
+
+.blog-details-auther-thumb {
+    float: left;
+    margin-right: 30px;
+}
+
+.blog-details-auther-thumb img {
+    border-radius: 100%;
+}
+
+.blog-details-auther-content h4 {
+    color: #692fd5;
+    padding: 0 0 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.blog-details-auther-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 100%;
+    margin: auto;
+    color: #8796A5;
+}
+
+.blog-details-content {
+    padding: 20px 0 18px;
+}
+
+.blog-details-content h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    color: #692fd5;
+}
+
+.blog-details-comment {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.blog-details-comment-reply {
+    position: absolute;
+    right: 25px;
+}
+
+.blog-details-comment-reply a {
+    background: #692fd5;
+    padding: 3px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.blog-details-comment-thumb {
+    float: left;
+    margin-right: 30px;
+}
+
+.blog-details-comment-thumb img {
+    border-radius: 100%;
+}
+
+.blog-details-comment-content {
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.blog-details-comment-content span {
+    font-size: 14px;
+    margin-bottom: 6px;
+    display: block;
+}
+
+
+.blog-details-comment-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 100%;
+    margin: auto;
+    color: #8796A5;
+}
+
+
+.blog-details-comment-content h2 {
+    font-size: 18px;
+    margin-top: 0;
+    color: #692fd5;
+}
+
+.widget_search {
+    padding: 45px 35px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.15));
+    background: #ffffff;
+}
+
+.widget_search input::placeholder {
+    color: #888f99;
+}
+
+.widget_search form input {
+    display: inline-block;
+    padding: 12px 75px;
+    border: 1px dashed #ddd;
+    background: #ffff;
+}
+
+.widget_search form i {
+    font-size: 17px;
+    color: #692fd5;
+    position: absolute;
+    left: 75px;
+    top: 65px;
+}
+
+.widget-recent-post {
+    border-bottom: 1px solid rgba(16, 18, 16, 0.10196078431372549);
+    padding: 0 0 25px;
+    margin-bottom: 25px;
+}
+
+.rpost-thumb {
+    margin-right: 20px;
+}
+
+
+.rpost-thumb img {
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+h4.sidebar-title {
+    padding: 0 0 30px;
+}
+
+.rpost-title h4 {
+    margin-top: 2px;
+}
+
+.rpost-content h4 a {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Mulish;
+    line-height: 24px;
+    color: #101010;
+    display: inline-block;
+    transition: .5s;
+}
+
+.rpost-title span {
+    font-size: 15px;
+    padding: 6px 0 0;
+    display: inline-block;
+}
+
+.widget-sidebar-box {
+    padding: 30px 30px 45px;
+    border-radius: 5px;
+    border-bottom: 30px;
+    margin-bottom: 30px;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.15));
+    background: #ffffff;
+}
+
+h4.sidebar-title.upp {
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-title {
+    font-size: 24px;
+    color: #01101e;
+    font-weight: 700;
+}
+
+ul.sidebar-menu {
+    list-style: none;
+}
+
+ul.sidebar-menu li a {
+    font-size: 17px;
+    color: #888f99;
+    font-weight: 400;
+    border: 1px dashed #888f99;
+    display: inline-block;
+    padding: 12px 0px 11px 0;
+    margin: 30px 0 0;
+    width: 100%;
+    transition: .5s;
+}
+
+ul.sidebar-menu li a i {
+    color: #888f99;
+    font-size: 10px;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    border: 1px solid #888f99;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 5px 0 22px;
+    transition: .5s;
+}
+
+ul.sidebar-menu li a span {
+    float: right;
+    margin-right: 30px;
+}
+
+ul.sidebar-menu li a:hover {
+    color: #692fd5;
+}
+
+ul.sidebar-menu li a i:hover {
+    color: #692fd5;
+    border-color: #692fd5;
+}
+
+.blog-details-single-box {
+    text-align: center;
+    background: #fff;
+    margin: 35px 0;
+    padding: 35px 0 35px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 57px rgba(16, 84, 200, 0.05);
+}
+
+.blog-content.up {
+    padding: 12px 0 0;
+}
+
+.blog-content.up a {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.blog-content p {
+    padding: 13px 0 18px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #616161;
+    font-weight: 400;
+    width: 85%;
+}
+
+.blog-details-icon a {
+    font-size: 16px;
+    color: #692fd5;
+    display: inline-block;
+    border: 1px dashed #692fd5;
+    height: 40px;
+    margin: 0 5px 0;
+    transition: 0.5s;
+    width: 40px;
+    border-radius: 10px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.blog-details-icon a:hover {
+    background: #692fd5;
+    color: #fff;
+}
+
+.widget-sidebar-box.up {
+    background: #ffff;
+    padding: 30px 30px 45px;
+    border-radius: 5px;
+    border-bottom: 30px;
+}
+
+.sidebar-title-left {
+    font-size: 22px;
+    color: #01101e;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.tag-item {
+    text-align: center;
+}
+
+.tag-item ul {
+    list-style: none;
+}
+
+.tag-item ul li {
+    display: inline-block;
+}
+
+.tag-item ul li a {
+    display: inline-block;
+    padding: 5px 19px;
+    border: 1px dashed #692fd5;
+    font-size: 15px;
+    color: #656970;
+    font-weight: 400;
+    margin: 0 6px 10px;
+    transition: .5s;
+}
+
+.tag-item ul li a:hover {
+    color: #F1F5F9;
+    background-color: #692fd5;
+}
+
+.contact-section.up {
+    margin-top: 0;
+}
+
+/*<!-- ============================================================== -->
+<!-- End cyber-security Blog Detaisl section  -->
+<!-- ============================================================== -->*/
+
+
+
+
+
+
+
+/*<!-- ============================================================== -->
+<!-- Start cyber-security team Section  -->
+<!-- ============================================================== -->*/
+
+.team-section {
+    padding: 110px 0 90px;
+}
+
+.single-team-box {
+    background: #FFF;
+    margin-bottom: 30px;
+    text-align: center;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.15));
+}
+
+.team-thumb img {
+    width: 100%;
+}
+
+.single-team-icon {
+    position: relative;
+    z-index: 1;
+}
+
+.single-team-icon-inner {
+    position: absolute;
+    z-index: -1;
+    right: -38px;
+    padding: 10px 15px;
+    text-align: center;
+    bottom: 80px;
+    opacity: 0;
+}
+
+.single-team-box:hover .single-team-icon-inner {
+    opacity: 1;
+    right: 0px;
+}
+
+.single-team-icon-inner {
+    background: linear-gradient(90deg, #c115db 0%, #692fd5 100%);
+    transition: .5s;
+}
+
+.single-team-icon-inner a {
+    color: #FFFF;
+    font-size: 16px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #FFFD;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.single-team-content {
+    padding: 12px 10px 22px;
+    border-bottom: 5px solid #9F20D9;
+}
+
+.single-team-content h4 {
+    color: #9F20D9;
+    font-size: 22px;
+    margin: 0;
+}
+
+.single-team-content span {
+    color: #000;
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/*<!-- ============================================================== -->
+<!-- End cyber-security team Section  -->
+<!-- ============================================================== -->*/
+
+
+
+
+
+
+
+
+/*===========================
+<-- cyber-security Loader Css -->
+=============================*/
+.loader-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.8s 1s ease;
+    z-index: 666;
+}
+
+.loader {
+    position: relative;
+    display: block;
+    z-index: 201;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin: -50px 0 0 -50px;
+    border-radius: 50%;
+    transition: all 1s 1s ease;
+    border: 3px solid transparent;
+    border-top-color: #7F2AD7;
+    -webkit-animation: spin 1.5s linear infinite;
+    -moz-animation: spin 1.5s linear infinite;
+    -o-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+
+.loader:before {
+    position: absolute;
+    content: '';
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-left-color: #9D24D9;
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    -o-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+.loader:after {
+    position: absolute;
+    content: '';
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-right-color: #F9455Eff;
+    -webkit-animation: spin 2.5s linear infinite;
+    -moz-animation: spin 2.5s linear infinite;
+    -o-animation: spin 2.5s linear infinite;
+    animation: spin 2.5s linear infinite;
+}
+
+/*/ Here comes the Magic /*/
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.loader-wrapper .loder-section {
+    position: fixed;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: #111;
+    z-index: 2;
+}
+
+.loader-wrapper .loder-section.left-section {
+    left: 0;
+    transition: 1s 1.4s ease;
+}
+
+.loader-wrapper .loder-section.right-section {
+    right: 0;
+    transition: 1s 1.4s ease;
+}
+
+/*/ When page loaded /*/
+.loaded .loder-section.left-section {
+    left: -100%;
+}
+
+.loaded .loder-section.right-section {
+    right: -100%;
+}
+
+.loaded .loader-wrapper {
+    visibility: hidden;
+}
+
+.loaded .loader {
+    top: -100%;
+    opacity: 0;
+}
+
+
+/*
+<!-- ============================================================== -->
+<!--Scrollup Button Section -->
+<!-- ============================================================== -->*/
+
+
+/*------back-to-top------------*/
+
+.prgoress_indicator {
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0 2px rgb(153, 149, 219);
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px);
+    transform: translateY(15px) !important;
+    transition: all 200ms linear !important;
+}
+
+.prgoress_indicator.active-progress {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) !important;
+}
+
+.prgoress_indicator::after {
+    position: absolute;
+    content: "\f106";
+    font-family: "Font Awesome 5 Free";
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    color: #EF4D72;
+    left: 0;
+    top: 0;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    font-weight: 900;
+    z-index: 1;
+    transition: all 200ms linear !important;
+}
+
+.prgoress_indicator::before {
+    position: absolute;
+    content: "\f106";
+    font-family: "Font Awesome 5 Free";
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    font-weight: 900;
+    opacity: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    left: 0;
+    top: 0;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    z-index: 2;
+    transition: all 200ms linear !important;
+}
+
+.prgoress_indicator:hover ::after {
+    color: #EF4D72;
+}
+
+.prgoress_indicator:hover ::before {
+    opacity: 1;
+}
+
+.prgoress_indicator svg path {
+    fill: none;
+}
+
+.prgoress_indicator svg.progress-circle path {
+    stroke: #EF4D72;
+    stroke-width: 4;
+    box-sizing: border-box;
+    transition: all 200ms linear !important;
+}
+
+.user-initials {  
+    font-size: 24px;  
+    font-weight: bold;  
+    margin: 10px;  
+  } 
+
+.Edit-container {  
+    width: 80%;  
+    height: 500px;  
+    position: fixed;  
+    top: 50%;  
+    left: 50%;  
+    transform: translate(-50%, -50%);  
+    background-color: #ffffff;  
+    text-align: center;  
+    padding: 60px 0 32px;  
+    margin-bottom: 30px;  
+    transition: .5s;  
+    border-radius: 10px;  
+    z-index: 10000;  
+    border: 1px solid #000000;
+}  
+
+.Edit-container .close-btn {  
+    position: absolute;  
+    top: 10px;  
+    right: 10px;  
+    font-size: 20px;  
+    cursor: pointer;  
+}  
+
+.RW-container {  
+    width: 400px;  
+    height: auto;  
+    position: fixed;  
+    top: 50%;  
+    left: 50%;  
+    transform: translate(-50%, -50%);  
+    background-color: #ffffff;  
+    text-align: center;  
+    padding: 60px 0 32px;  
+    margin-bottom: 30px;  
+    transition: .5s;  
+    border-radius: 10px;  
+    z-index: 10000;  
+    border: 1px solid #000000;
+}  
+
+.RW-container .close-btn {  
+    position: absolute;  
+    top: 10px;  
+    right: 10px;  
+    font-size: 20px;  
+    cursor: pointer;  
+}  
+
+.item {  
+    margin-bottom: 10px; /* 设置商品元素之间的垂直间距 */  
+    padding: 10px; /* 设置商品元素的内边距 */  
+  }  
+
+
+  
+  .header_container {  
+
+    background-color: #fff; /* 假设背景色为白色 */  
+    padding-top: 30px; /* 假设内边距为15px（不包括上方已经设置的30px） */  
+    padding-bottom: 20px;
+    /* 添加一个黑色半透明分割线，使用伪元素::after */  
+    position: relative; /* 需要设置position，以便伪元素能够相对于此元素定位 */  
+}  
+  
+.header_container::after {  
+    content: ''; /* 伪元素的内容为空 */  
+    display: block; /* 伪元素作为块级元素显示 */  
+    position: absolute; /* 伪元素相对于header_container定位 */  
+    bottom: 0; /* 伪元素位于header_container的底部 */  
+    left: 0; /* 伪元素从左侧开始 */  
+    width: 100%; /* 伪元素宽度与header_container相同 */  
+    height: 1px; /* 伪元素的高度 */  
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.5); /* 使用虚线边框，并设置颜色和透明度 */  
+}

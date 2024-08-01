@@ -1,0 +1,5 @@
+{
+    "editor.maxTokenizationLineLength": 100000000,
+    "python.REPL.enableREPLSmartSend": false,
+    "git.ignoreLimitWarning": true
+}
